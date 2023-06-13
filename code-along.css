@@ -3,11 +3,33 @@
   border: 1px solid teal;
 }
 
-nav {
-  display: none;
+.flex-basics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: blue;
+
+}
+
+
+li{
+  list-style: none;
 }
 
 img {
   max-width: 175px;
   height: 125px;
+}
+
+aside {
+  max-width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+
+
+.container {
+  display: flex;
 }
